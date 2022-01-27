@@ -16,8 +16,8 @@ export default function premium() {
           </p>
           <p className="text-start font-mono text-white ml-0 mr-auto mt-8 ">
             Wellcome Desing&Alive Best Ever Collection in the World. There are
-            many variations o by injected humour, or randomised words which
-            don't look even slightly believable. If you are going to use a
+            many variations o by injected humour, or randomised words which don
+            nott look even slightly believable. If you are going to use a
             passage of Lorem Ipsum, you need to be sure...
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function premium() {
       <div className="flex flex-col md:p-8 relative md:pb-20 ">
         <p className="text-[#666] text-lg text-center text-opacity-40 pb-8">
           <strong className="text-black">
-            Here's a different option for you.
+            Here is a different option for you.
           </strong>{" "}
           Eos in maluisset mediocritatem. Cu qui admodum inimicus, te mei debet
           qualisque.
