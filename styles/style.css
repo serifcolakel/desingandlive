@@ -488,6 +488,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 50;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -496,6 +500,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mt-12 {
@@ -526,6 +540,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: auto;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -536,6 +566,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hidden {
   display: none;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .h-\[60vh\] {
@@ -566,6 +600,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 300px;
 }
 
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-\[46px\] {
+  height: 46px;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -590,6 +640,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 400px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
+}
+
+.w-\[825px\] {
+  width: 825px;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-8\/12 {
+  width: 66.666667%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -606,12 +688,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -626,8 +716,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
-.gap-y-28 {
-  row-gap: 7rem;
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .gap-x-8 {
@@ -652,8 +742,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   row-gap: 2rem;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 
 .overflow-hidden {
@@ -693,6 +784,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -713,7 +808,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(90 185 99 / var(--tw-bg-opacity));
 }
 
-.bg-partner-food {
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-features-image {
+  background-image: url('https://i.hizliresim.com/1yzep49.png');
+}
+
+.bg-home-image {
   background-image: url('https://uploads-ssl.webflow.com/61e6f7c57d32bad945e87f67/61e933188821f3410b5ac253_ezgif.com-gif-maker.gif');
 }
 
@@ -723,6 +827,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.bg-repeat-space {
+  background-repeat: space;
 }
 
 .object-cover {
@@ -761,12 +869,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pb-2 {
@@ -797,12 +913,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 25px;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
+.pr-12 {
+  padding-right: 3rem;
 }
 
 .text-center {
@@ -841,6 +953,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 40px;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -877,10 +994,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 1;
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -893,52 +1006,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-opacity {
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.delay-500 {
-  transition-delay: 500ms;
-}
-
-.duration-75 {
-  transition-duration: 75ms;
-}
-
-.duration-150 {
-  transition-duration: 150ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.duration-100 {
-  transition-duration: 100ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
-}
-
-.ease-out {
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.ease-linear {
-  transition-timing-function: linear;
 }
 
 .test {
@@ -959,6 +1030,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-green-500:hover {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -1014,8 +1090,36 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 170px;
   }
 
+  .md\:w-\[1100px\] {
+    width: 1100px;
+  }
+
+  .md\:w-\[1150px\] {
+    width: 1150px;
+  }
+
+  .md\:w-\[1130px\] {
+    width: 1130px;
+  }
+
+  .md\:w-9\/12 {
+    width: 75%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .md\:max-w-screen-xl {
     max-width: 1280px;
+  }
+
+  .md\:max-w-screen-lg {
+    max-width: 1024px;
   }
 
   .md\:flex-row {
@@ -1043,6 +1147,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 2rem;
   }
 
+  .md\:pb-0 {
+    padding-bottom: 0px;
+  }
+
   .md\:pt-40 {
     padding-top: 10rem;
   }
@@ -1059,8 +1167,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 3rem;
   }
 
-  .md\:pb-0 {
-    padding-bottom: 0px;
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:text-\[72px\] {

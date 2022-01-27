@@ -20,11 +20,11 @@ export default function Sliders({ settings, data, isRow }) {
               alt={item.title}
               className={
                 isRow
-                  ? "w-[625px] h-[300px] object-cover shadow-xl rounded-t-lg md:rounded-l-lg "
+                  ? "md:w-8/12 w-full h-[300px] object-cover shadow-xl rounded-t-lg md:rounded-l-lg "
                   : "w-[400px] h-[300px] object-cover shadow-xl rounded-t-lg "
               }
             />
-            <div className="w-full md:w-1/2 flex py-8 gap-y-4 md:gap-y-20 flex-col rounded-b-2xl">
+            <div className="w-full md:w-1/4 flex py-8 gap-y-4 md:gap-y-20 flex-col rounded-b-2xl">
               <p className="text-center mx-auto text-lg ">{item.title}</p>
               {!isRow ? (
                 <p className=" text-center text-[#999] text-sm ">

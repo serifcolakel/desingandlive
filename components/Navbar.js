@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <div className="w-full px-4 pt-0  rounded-b-xl md:w-[1170px] h-[60px] md:h-[90px] mx-auto flex flex-row justify-between items-center text-white">
       <Link href="/">
-        <p className="text-xl font-bold cursor-pointer">DESINGANDALIVE</p>
+        <p className="text-xl pl-4 md:pl-0 font-bold cursor-pointer">
+          DESINGANDALIVE
+        </p>
       </Link>
       <div className={isOpen ? "h-full p-4 bg-[#5ab963]" : "h-full p-4 "}>
         <HiMenu
@@ -19,7 +21,7 @@ export default function Navbar() {
 
       <Transition
         show={isOpen}
-        className="absolute top-[60px] left-0 bg-[#5ab963] w-full h-full  mt-auto md:hidden flex-col  items-center z-50 "
+        className="absolute top-[60px] left-0 bg-[#5ab963] w-full h-[60vh]  mt-auto md:hidden flex-col  items-center z-50 "
       >
         <Transition.Child
           enter="transition-opacity linear duration-2000"
