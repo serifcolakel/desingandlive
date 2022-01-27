@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Navbar from "../components/Navbar";
-export default function features() {
+export default function Features() {
   return (
     <div className="w-full bg-features-image bg-repeat-space h-[100vh] text-center">
       <Navbar />

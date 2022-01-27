@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.test {
-  transform: translateY(0px) translateX(0px);
-  transition: transform 400ms ease-out 0s;
-}

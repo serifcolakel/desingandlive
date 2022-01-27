@@ -21,7 +21,7 @@ export default function Navbar() {
 
       <Transition
         show={isOpen}
-        className="absolute top-[60px] left-0 bg-[#5ab963] w-full h-[60vh]  mt-auto md:hidden flex-col  items-center z-50 "
+        className="absolute top-[60px] left-0 bg-[#5ab963] w-full h-[68vh]  mt-auto md:hidden flex-col  items-center z-50 "
       >
         <Transition.Child
           enter="transition-opacity linear duration-2000"
@@ -48,7 +48,7 @@ export default function Navbar() {
             )
           )}
           <Link href="/login">
-            <p className="text-sm font-bold cursor-pointer hover:text-green-600">
+            <p className="text-sm font-bold cursor-pointer py-6 hover:text-green-600">
               Sign in
             </p>
           </Link>
