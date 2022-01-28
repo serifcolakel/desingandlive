@@ -10,7 +10,7 @@ export default function About() {
         <h1 className="text-5xl font-bold md:text-left md:pt-28">About</h1>
         <p className="md:text-left">
           Home is an essential part of our existence. The house is an integral
-          component of one's identity. "Design & Live" collects the works of the
+          component of one is identity. Design & Live collects the works of the
           brightest minds, which are products of art movements, philosophy,
           history, and humanistic disciplines.
         </p>
