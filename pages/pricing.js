@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-export default function pricing() {
+export default function Pricing() {
   return (
     <>
       <div className="w-full bg-[#5ab963]  md:h-[53vh] text-center">

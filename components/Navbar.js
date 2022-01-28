@@ -5,7 +5,7 @@ import { Transition } from "@tailwindui/react";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="w-full px-4 pt-0  rounded-b-xl md:w-[1170px] h-[60px] md:h-[90px] mx-auto flex flex-row justify-between items-center text-white">
+    <div className="w-full px-4 pt-0 z-50  rounded-b-xl md:w-[1170px] h-[60px] md:h-[90px] mx-auto flex flex-row justify-between items-center text-white">
       <Link href="/">
         <p className="text-xl pl-4 md:pl-0 font-bold cursor-pointer">
           DESINGANDALIVE
