@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
   return (
-    <div className="bg-about-bg w-full h-[100vh] relative bg-black z-0 text-center">
+    <div className=" w-full h-[100vh] relative bg-black z-0 text-center">
       <Navbar />
       <div className="w-full p-4 md:w-[550px] md:ml-[375px] h-[100vh] text-white flex flex-col gap-y-8 -mb-24 ">
         <h1 className="text-5xl font-bold md:text-left md:pt-28">About</h1>
