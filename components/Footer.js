@@ -15,7 +15,7 @@ export default function Footer() {
             DESINGANDLIVE
           </p>
           <p className="text-[12px] text-[#666] font-[600] ">
-            ©2022 Rasit Inc, All rights reserved.
+            ©2022 DesingAndLive Company, All rights reserved.
           </p>
         </div>
         <div className="flex flex-row md:w-1/3 w-full gap-x-4 md:justify-between">
